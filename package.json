@@ -1,0 +1,44 @@
+{
+  "name": "bowling",
+  "version": "1.0.0",
+  "description": "My webpack project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "build": "webpack --config webpack.config.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayrbarr/bowling.git"
+  },
+  "author": "Jay Barr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jayrbarr/bowling/issues"
+  },
+  "homepage": "https://github.com/jayrbarr/bowling#readme",
+  "dependencies": {
+    "@webpack-cli/init": "^0.2.2",
+    "express": "^4.17.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "styled-components": "^5.1.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "@babel/preset-react": "^7.10.1",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-styled-components": "^1.10.7",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "css-loader": "^3.5.3",
+    "mini-css-extract-plugin": "^0.9.0",
+    "style-loader": "^1.2.1",
+    "terser-webpack-plugin": "^3.0.3",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "workbox-webpack-plugin": "^5.1.3"
+  }
+}
